@@ -1,0 +1,15 @@
+vpackage sn.Sane.l2gl.app;
+
+public class Vehicule {
+    public String immatricule;
+    public String marque;
+    public String type;
+    public String etat;
+
+    public Vehicule(String immatricule, String marque, String type, String etat) {
+        this.immatricule = immatricule; 
+        this.marque = marque; 
+        this.type = type; 
+        this.etat = etat;
+    }
+}
